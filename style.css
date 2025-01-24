@@ -1,0 +1,21 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: 3rem 3rem;
+  background-repeat: round;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  border: 1px dotted black;
+}
